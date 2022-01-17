@@ -28,4 +28,4 @@ phases:
 
 artifacts:
   files:
-    - target/davetlimsinizRest-0.0.1-SNAPSHOT
+    - target/davetlimsiniz-rest.jar

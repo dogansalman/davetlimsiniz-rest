@@ -111,7 +111,9 @@
                             <version>${org.mapstruct.version}</version>
                         </path>
                     </annotationProcessorPaths>
+                    <finalName>davetlimsiniz-rest</finalName>
                 </configuration>
+
             </plugin>
         </plugins>
     </build>
