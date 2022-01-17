@@ -25,7 +25,10 @@ phases:
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
+      - printf '[{"name":"service","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - cat imagedefinitions.json
 
 artifacts:
   files:
+    - imagedefinitions.json
     - target/davetlimsiniz-rest.jar
