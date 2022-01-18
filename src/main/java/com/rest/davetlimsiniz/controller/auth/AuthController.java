@@ -1,7 +1,7 @@
 package com.rest.davetlimsiniz.controller.auth;
 
 import com.rest.davetlimsiniz.security.AuthManager;
-import com.rest.davetlimsiniz.service.UserService;
+import com.rest.davetlimsiniz.service.user.UserService;
 import com.rest.davetlimsiniz.dto.auth.AuthDTO;
 import com.rest.davetlimsiniz.dto.auth.LoginDTO;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,12 +1,13 @@
-package com.rest.davetlimsiniz.service;
+package com.rest.davetlimsiniz.service.user;
 
 import com.rest.davetlimsiniz.entity.user.User;
+import com.rest.davetlimsiniz.service.AbstractService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.rest.davetlimsiniz.dao.user.UserDAO;
 
 @Service
-public class UserService extends AbstractService<User>{
+public class UserService extends AbstractService<User> {
     @Autowired
     UserDAO dao;
 

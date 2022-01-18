@@ -3,7 +3,7 @@ package com.rest.davetlimsiniz.config;
 import com.rest.davetlimsiniz.entity.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.rest.davetlimsiniz.service.UserService;
+import com.rest.davetlimsiniz.service.user.UserService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.annotation.PostConstruct;

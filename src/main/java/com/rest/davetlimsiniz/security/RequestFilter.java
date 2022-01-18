@@ -1,7 +1,7 @@
 package com.rest.davetlimsiniz.security;
 
 import com.rest.davetlimsiniz.entity.user.User;
-import com.rest.davetlimsiniz.service.UserService;
+import com.rest.davetlimsiniz.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
