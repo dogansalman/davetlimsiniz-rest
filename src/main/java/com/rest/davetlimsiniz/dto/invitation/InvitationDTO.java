@@ -1,7 +1,7 @@
 package com.rest.davetlimsiniz.dto.invitation;
 
 import com.rest.davetlimsiniz.dto.AbstractDTO;
-import com.rest.davetlimsiniz.entity.Attachments;
+import com.rest.davetlimsiniz.entity.attachments.Attachments;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,7 +1,8 @@
-package com.rest.davetlimsiniz.mapper;
+package com.rest.davetlimsiniz.mapper.user;
 
 import com.rest.davetlimsiniz.dto.user.UserDTO;
 import com.rest.davetlimsiniz.entity.user.User;
+import com.rest.davetlimsiniz.mapper.GenericMapper;
 import org.mapstruct.Mapper;
 
 import java.util.List;

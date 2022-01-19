@@ -1,7 +1,7 @@
 package com.rest.davetlimsiniz.entity.invitation;
 
 import com.rest.davetlimsiniz.entity.AbstractEntity;
-import com.rest.davetlimsiniz.entity.Attachments;
+import com.rest.davetlimsiniz.entity.attachments.Attachments;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
