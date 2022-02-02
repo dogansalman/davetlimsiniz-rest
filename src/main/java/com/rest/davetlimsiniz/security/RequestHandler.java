@@ -18,8 +18,8 @@ public class RequestHandler implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-
-        if (request.getServletPath().startsWith("/auth")) {
+        // todo invitation kaldırılacak.
+        if (request.getServletPath().startsWith("/auth") || request.getServletPath().startsWith("/invitation")) {
             return HandlerInterceptor.super.preHandle(request, response, handler);
         }
 
